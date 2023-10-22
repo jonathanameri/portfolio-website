@@ -8,12 +8,12 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <nav className={'navbar'} >
-                <img src={logo} alt={'logo'} className={'logo'}/>
+                {/*<img src={logo} alt={'logo'} className={'logo'}/>*/}
+                <div className={'logoName'}>Jonathan Ameri</div>
                 <div className={'desktopMenu'}>
                     <Link className={'desktopMenuListItem'} >Home</Link>
                     <Link className={'desktopMenuListItem'} >About</Link>
                     <Link className={'desktopMenuListItem'} >Portfolio</Link>
-                    <Link className={'desktopMenuListItem'} >Skills</Link>
                 </div>
                 <button className={'desktopMenuBtn'}>
                     <img className={'desktopMenuImg'} src={contactImg} alt={'menu'} />
