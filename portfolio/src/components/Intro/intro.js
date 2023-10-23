@@ -4,7 +4,6 @@ import headshotImg from '../../assets/headshot.png';
 import scrollDownIcon from '../../assets/scroll-down.png';
 import { Link } from "react-scroll";
 
-const introDescription = '';
 
 const Intro = () => {
     return (
