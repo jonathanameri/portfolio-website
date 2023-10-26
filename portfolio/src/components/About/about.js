@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section className={'about'}>
             <div className={'aboutText'}>
-                <h1 className={'aboutTitle'}>About Me</h1>
+                <h2 className={'aboutTitle'}>About Me</h2>
             </div>
             <div className={'aboutContent'}>
                 <div className={'aboutContentMain'}>
@@ -16,7 +16,7 @@ const About = () => {
                     <p className={'aboutContentText'}>In addition to my academic pursuits, I'm an avid coder who loves tackling coding challenges and crafting my own projects. I believe in the power of hands-on experience to continually enhance my skills. If you have an opportunity that aligns with my interests and skills, feel free to reach out. I'm always eager to explore new coding adventures and contribute to exciting projects.</p>
                 </div>
                 <div className={'aboutContentSkills'}>
-                    <h3 className={'aboutContentTitle'}>Skills</h3>
+                    <h3 className={'aboutContentTitle'}>My Skills</h3>
                     <div className={'aboutContentSkillsList'}>
                         {skills.map((skill, index) => (
                             <div className={'aboutContentSkillsListItem'} key={index}>

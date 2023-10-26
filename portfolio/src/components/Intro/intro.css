@@ -13,7 +13,7 @@
 
 .introImg {
     margin: 2rem;
-    height: 20rem;
+    height: 17.5rem;
     object-fit: cover;
     border: white 0.2rem solid;
 }
@@ -60,7 +60,7 @@
         display: none
     }
 }
-@media (min-height: 720px) {
+@media (min-height: 768px) {
     .scrollDownIcon {
         display: block;
         animation: scrollAnimation 4s infinite; /* Start the animation and repeat it indefinitely */

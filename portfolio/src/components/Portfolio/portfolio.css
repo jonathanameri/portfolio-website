@@ -1,0 +1,77 @@
+/* portfolio.css */
+
+.portfolio {
+    background-color: #6A92A1;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.portfolioTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.portfolioDescription {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.projectList {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the items horizontally */
+    margin: 20px;
+}
+.projectItem {
+    display: flex; /* Use flex layout to align items horizontally */
+    flex-direction: column; /* Stack items vertically */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectTitle {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.projectContent {
+    display: flex; /* Side by side layout for image and project info */
+    align-items: center; /* Vertically center the content */
+}
+
+.projectImage {
+    max-width: 25%;
+    height: auto;
+    margin-right: 20px; /* Add spacing between image and text */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectInfo {
+    flex: 1; /* Expand to take up remaining space */
+    text-align: left;
+}
+.projectDescription {
+    color: #666;
+    margin: 10px 0;
+}
+.projectLink {
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.projectLink:hover {
+    background-color: #0056b3;
+}
